@@ -52,6 +52,7 @@ Here is an example of config. To define the config we will call `port`, either e
 | -------------------- | ---------------------------------------------- |
 | loadbalancer_address | HTTP/HTTPS address of the UnicornLoadBalancer. |
 | instance_address     | HTTP/HTTPS address of the UnicornTranscoder.   |
+| server_token         | Authentication token from the UnicornLoadBalancer. |
 
 If you setup a Plex Media Server with the domain name `https://my-pms.com`, and you successfully setuped UnicornLoadBalancer, set load balancer_address to this adress.
 

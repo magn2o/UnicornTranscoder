@@ -11,7 +11,7 @@ module.exports = {
     loadbalancer_address:  env.string('LOADBALANCER_ADDRESS',  'https://unicornloadbalancer.myplex.com'),
     ping_frequency:        env.int   ('PING_FREQUENCY',        10),
     instance_address:      env.string('INSTANCE_ADDRESS',      'https://unicorntranscoder.myplex.com'),
-    auth:                  env.string('SERVER_AUTH',           ''),
+    token:                 env.string('SERVER_TOKEN',          ''),
 
     transcoder: {
         plex_arch:         env.string('PLEX_ARCH',             'amd64'), // Can be: amd64, arm64, armhf, i386
