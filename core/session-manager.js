@@ -125,6 +125,7 @@ class SessionManager {
             name: config.instance_address,
             settings: config.performance,
             url: config.instance_address,
+            auth: config.auth
         };
 
         //Transcoding session
